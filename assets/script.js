@@ -20,7 +20,12 @@ const handleClick = () => {
 
   let password = '';
 
- 
+  for (let i = 0; i < len; i++) {
+    password += temp[Math.floor(Math.random()* temp.length)]
+  };
+
+  document.querySelector('textarea').value = password;  
+  console.log(temp);
 };
 
 document.querySelector('button').addEventListener('click', handleClick);
