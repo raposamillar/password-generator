@@ -1,3 +1,7 @@
+const alpha = 'abcdefghijklmnopqrstuvwxyz';
+const number = '0123456789';
+const characters = '!@#$%^&*_-';
+
 const handleClick = () => {
   let len = prompt('How long would you like the password to be (8-128)?');
   if(len<8 || len>128) return handleClick;
@@ -9,7 +13,14 @@ const handleClick = () => {
 
   let temp = '';
 
-  
+  if(lower) temp += alpha;
+  if(upper) temp += alpha.toUpperCase();
+  if(numeric) temp += number;
+  if(special) temp += characters;
+
+  let password = '';
+
+ 
 };
 
 document.querySelector('button').addEventListener('click', handleClick);
