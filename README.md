@@ -10,7 +10,7 @@ Once a valid number has been entered, the user is asked to confirm or deny (OK o
 
 This application uses the Math.random function contained within a for loop to create spontaneous results.
 
-Finally, the password is written into the textarea above the button and underneath the page's subheading.
+Finally, the password is written into the textarea located above the button and underneath the page's subheading.
 
 https://raposamillar.github.io/password-generator/
 
