@@ -1,7 +1,9 @@
 # Password Generator
 
 ## Description
-This application creates a password automatically in several clicks.  The user clicks on a red button and is prompted with a series of questions.  Based upon the criteria chosen, a password between 8-128 characters is generated.
+This application creates a password automatically in several clicks.  The user clicks on a red button and is prompted with a series of questions.  Based upon the criteria chosen, a password between 8-128 characters is generated.<br>
+
+N.B.: Bootcamp study project
 
 ## Features
 The password must contain 8-128 characters.  If the initial number entered falls outside of these parameters, the prompt will refresh as indicated by the handleClick function.  
